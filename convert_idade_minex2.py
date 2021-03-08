@@ -5,6 +5,6 @@ def idade_em_min (i):
     segundos= minutos *60
   
     return minutos
-    minutos = idade_em_min('21')
+    minutos = idade_em_min(21)
 
     print("Os minutos correspodentes a sua idade é: ")
