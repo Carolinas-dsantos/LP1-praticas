@@ -1,6 +1,6 @@
 nome = input("Seu nome: ")
 idade = int(input("Sua idade: "))
-estadocivil = input("Seu estado civil: ")
+estado_civil = input("Seu estado civil: ")
 genero = input("Seu genero é: ")
 
 def nome (n):
@@ -9,7 +9,7 @@ def nome (n):
 def idade (i):
     return i 
 
-def estadocivil (ec):
+def estado_civil (ec):
     return ec
 
 def genero (g):
@@ -19,6 +19,6 @@ def genero (g):
 
     print(idade(i))
 
-    print(estadocivil(ec))
+    print(estado_civil(ec))
 
     print(genero(g))
